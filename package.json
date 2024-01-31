@@ -21,14 +21,13 @@
     "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "mongodb": "^6.3.0",
-    "mongoose": "^8.0.2",
-    "nodemon": "^3.0.2",
+    "mongoose": "^8.1.1",
     "pony-props": "^0.2.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.19.0",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1"
@@ -41,6 +40,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "nodemon": "^3.0.3",
     "sass": "^1.69.7",
     "vite": "^5.0.0"
   },
@@ -55,5 +55,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "La Botika es una plataforma digital diseñada para facilitar la compra de productos alcohólicos a través de internet. Este proyecto ofrece a los usuarios la conveniencia de explorar y adquirir una variedad de bebidas alcohólicas desde la comodidad de sus hogares. La plataforma incluye características como registro de usuarios, navegación intuitiva a través de un catálogo de productos, carrito de compras para gestionar selecciones y proceso de checkout seguro. Además cuenta con verificación de edad para cumplir con regulaciones legales, y medidas de seguridad de autenticación y protección de datos. La Botika busca proporcionar una experiencia de compra segura, conveniente y satisfactoria para sus usuarios.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
