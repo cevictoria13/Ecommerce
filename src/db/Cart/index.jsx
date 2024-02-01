@@ -33,6 +33,7 @@ const Cart = () => {
   initMercadoPago("TEST-d181be88-ac9a-41fa-a962-1fab2bbf681e");
 
   const createPreference = async () => {
+    // const urlBackend = "http://localhost:4000/"; you can change it to your backend url debo mover esta línea `${urlBackend}/create_preference ` remplaza a esto--> "http://localhost:4000/create_preference"
     try {
       const response = await axios.post("http://localhost:4000/create_preference", {
         description: "Producto",
